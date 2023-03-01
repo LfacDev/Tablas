@@ -4,11 +4,36 @@
 }
 
 .table{
-    margin: 0 auto;
+    border: 2px solid black;
+    margin: 0 auto; 
     border-collapse: collapse;
+    font-size: 25px;
+    
 }
 
-thead, th{
-    border: 1px solid gray;
-    background-color: red;
+tr th, td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: #df6e6e;
+    
+}
+
+.cabecera{
+    background-color: #df6e6e;
+}
+
+.info{
+    background-color: #df6e6e;
+}
+
+.datos{
+    background-color: rgb(224, 217, 217);
+    border: 2px solid black;
+    padding: 5px;
+    
 }
